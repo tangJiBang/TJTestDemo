@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4298A08231CC0330038F648 /* FJFaileBGiPhonePortraitiiPhonePortraitiOS56_320x480pt.png in Resources */ = {isa = PBXBuildFile; fileRef = A4298A07231CC0330038F648 /* FJFaileBGiPhonePortraitiiPhonePortraitiOS56_320x480pt.png */; };
 		A4856C04231CB652008D9D5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4856C03231CB652008D9D5E /* AppDelegate.m */; };
 		A4856C07231CB652008D9D5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4856C06231CB652008D9D5E /* ViewController.m */; };
 		A4856C0A231CB652008D9D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4856C08231CB652008D9D5E /* Main.storyboard */; };
 		A4856C0C231CB655008D9D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4856C0B231CB655008D9D5E /* Assets.xcassets */; };
 		A4856C0F231CB655008D9D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4856C0D231CB655008D9D5E /* LaunchScreen.storyboard */; };
 		A4856C12231CB655008D9D5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4856C11231CB655008D9D5E /* main.m */; };
+		C54E4F32354F4BDAB976372A /* Pods_TJTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D22978D3CEF8955AD75FE46 /* Pods_TJTestDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C3B65443AC7009D87725964 /* Pods-TJTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TJTestDemo.release.xcconfig"; path = "Target Support Files/Pods-TJTestDemo/Pods-TJTestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8D22978D3CEF8955AD75FE46 /* Pods_TJTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TJTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4298A07231CC0330038F648 /* FJFaileBGiPhonePortraitiiPhonePortraitiOS56_320x480pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FJFaileBGiPhonePortraitiiPhonePortraitiOS56_320x480pt.png; sourceTree = "<group>"; };
 		A4856BFF231CB652008D9D5E /* TJTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TJTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4856C02231CB652008D9D5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4856C03231CB652008D9D5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		A4856C0E231CB655008D9D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4856C10231CB655008D9D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4856C11231CB655008D9D5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E77786F817E4E60A9496A5E2 /* Pods-TJTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TJTestDemo.debug.xcconfig"; path = "Target Support Files/Pods-TJTestDemo/Pods-TJTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54E4F32354F4BDAB976372A /* Pods_TJTestDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2890D855CA54B64CC4A9FC91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E77786F817E4E60A9496A5E2 /* Pods-TJTestDemo.debug.xcconfig */,
+				7C3B65443AC7009D87725964 /* Pods-TJTestDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		924DF0AF18BB98CF6D73E045 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D22978D3CEF8955AD75FE46 /* Pods_TJTestDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4298A06231CBFE30038F648 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				A4298A07231CC0330038F648 /* FJFaileBGiPhonePortraitiiPhonePortraitiOS56_320x480pt.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		A4856BF6231CB652008D9D5E = {
 			isa = PBXGroup;
 			children = (
 				A4856C01231CB652008D9D5E /* TJTestDemo */,
 				A4856C00231CB652008D9D5E /* Products */,
+				2890D855CA54B64CC4A9FC91 /* Pods */,
+				924DF0AF18BB98CF6D73E045 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +92,7 @@
 		A4856C01231CB652008D9D5E /* TJTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A4298A06231CBFE30038F648 /* Image */,
 				A4856C02231CB652008D9D5E /* AppDelegate.h */,
 				A4856C03231CB652008D9D5E /* AppDelegate.m */,
 				A4856C05231CB652008D9D5E /* ViewController.h */,
@@ -78,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4856C15231CB655008D9D5E /* Build configuration list for PBXNativeTarget "TJTestDemo" */;
 			buildPhases = (
+				68600BEDAC1AB7B5917B9FEA /* [CP] Check Pods Manifest.lock */,
 				A4856BFB231CB652008D9D5E /* Sources */,
 				A4856BFC231CB652008D9D5E /* Frameworks */,
 				A4856BFD231CB652008D9D5E /* Resources */,
+				722F5208BF5FCD3ECEA80F4C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,12 +166,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4856C0F231CB655008D9D5E /* LaunchScreen.storyboard in Resources */,
+				A4298A08231CC0330038F648 /* FJFaileBGiPhonePortraitiiPhonePortraitiOS56_320x480pt.png in Resources */,
 				A4856C0C231CB655008D9D5E /* Assets.xcassets in Resources */,
 				A4856C0A231CB652008D9D5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68600BEDAC1AB7B5917B9FEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TJTestDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		722F5208BF5FCD3ECEA80F4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TJTestDemo/Pods-TJTestDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TJTestDemo/Pods-TJTestDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TJTestDemo/Pods-TJTestDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A4856BFB231CB652008D9D5E /* Sources */ = {
@@ -283,6 +363,7 @@
 		};
 		A4856C16231CB655008D9D5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E77786F817E4E60A9496A5E2 /* Pods-TJTestDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +381,7 @@
 		};
 		A4856C17231CB655008D9D5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C3B65443AC7009D87725964 /* Pods-TJTestDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
