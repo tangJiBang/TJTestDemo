@@ -5,7 +5,7 @@ DEPENDENCIES:
   - TJTestDemo (~> 0.0.2)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - TJTestDemo
 
 SPEC CHECKSUMS:
@@ -13,4 +13,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 0911589a007f93f02306de8f72355b0f27554476
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.0.beta.2

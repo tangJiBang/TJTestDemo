@@ -1,0 +1,6 @@
+#以下内容按需添加
+source 'https://gems.ruby-china.com/'
+#管理功能依赖
+gem 'cocoapods', '~>1.7.0'
+#用于打包脚本
+gem 'fastlane', ' >= 2.104.0'
