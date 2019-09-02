@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TJTestDemo"
-  s.version          = "0.0.3"
+  s.version          = "0.0.4"
   s.summary          = "Boco基础业务数据.(用户信息)."
   s.description      = <<-DESC
               Boco基础业务数据.(用户信息).
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   #s.resources = ['', '']
   s.resource_bundles = {
     'TJTestDemo_Image' => ['TJTestDemo/TJTestDemo/Image/*.png'],
-    'TJTestDemo_Assets' => ['TJTestDemo/TJTestDemo/Image/Assets.xcassets/**/*.png']
+    'TJTestDemo_Assets' => ['TJTestDemo/TJTestDemo/Assets.xcassets/*']
   }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
