@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TJTestDemo"
-  s.version          = "0.0.4"
+  s.version          = "0.0.5"
   s.summary          = "Boco基础业务数据.(用户信息)."
   s.description      = <<-DESC
               Boco基础业务数据.(用户信息).
